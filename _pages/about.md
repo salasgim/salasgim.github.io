@@ -11,7 +11,7 @@ Welcome! I am a Ph.D. Candidate in Political Science and International Relations
 
 My dissertation examines how firms recognize and respond to political risk. By studying different sources of political uncertainty, I aim to understand how such risk affects firm behavior, through which channels it reaches them, and how firms adapt their strategies when the political environment shifts around them. Empirically, I combine establishment-level data on subsidiary placements, a large language model pipeline to analyze corporate textual data, and survey experiments.
 
-You can access my CV [here](https://drive.google.com/file/d/1CEIndSAh0Cje0XaMSkLsiH2QjFW4YHLU/view?usp=drive_link). (Last updated: May 2026).
+You can access my CV [here](https://drive.google.com/file/d/1kui2dtHK60LrAnIbWvISHy_QgDq23ger/view?usp=drive_link). (Last updated: July 2026).
 
 <div style="display: flex; gap: 1em; margin: 1em 0;">
 <div markdown="1">
