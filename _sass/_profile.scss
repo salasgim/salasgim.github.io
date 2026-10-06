@@ -46,7 +46,6 @@ html {
     margin: 0 0 1rem;
     padding: 0;
     border: 0;
-    font-size: 1rem;
   }
 
   .profile-details p,
@@ -68,6 +67,10 @@ html {
 
   .research-section > h3 {
     margin: 2rem 0 0.7rem;
+  }
+
+  .profile-details h2,
+  .research-section > h3 {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.3rem;
     font-weight: 400;
