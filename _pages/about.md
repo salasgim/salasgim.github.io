@@ -54,10 +54,17 @@ With Valentina Gonzalez-Rostani.
 </article>
 
 <article class="research-entry" markdown="1">
-#### Social Ties and Diaspora Managers: Evidence from a Multi-Country Survey
+#### Social Ties, Managers' International Experience, and Firm Political Participation
 
 With Junbeom Bahk, Benjamin A.T. Graham, and Sooyeon Kim.
 {: .research-entry__authors}
+
+<div class="research-actions">
+  <details class="research-abstract">
+    <summary>Abstract</summary>
+    <p>Firms use social ties--personal relationships between firm leaders and counterparts at other firms and between firms and government officials--to facilitate political participation. We examine how firm managers of different types--foreigners, nationals, and nationals with international experience--shape firms' use of social ties and their political participation. We argue that firms who employ nationals with international experience (NIEs) as managers are unusually well positioned to form and leverage social ties for political ends. NIE managers combine local connections and familiarity with formal and informal host-country institutions with international connections and knowledge developed abroad. By strengthening firms' peer and political ties, NIE managers make political participation more likely and increase the probability that firms succeed in influencing government policy. We draw on new survey data covering 1,870 firms across seven Southeast Asian countries, with measures of firms' management composition, their peer and political ties, political participation, political tactics, and self-reported success in achieving policy objectives. Consistent with our theory, firms with NIE managers report more extensive peer and political ties, are more likely to attempt to influence government action, and are more likely to report success in doing so.</p>
+  </details>
+</div>
 </article>
 
 ### Work in Progress
