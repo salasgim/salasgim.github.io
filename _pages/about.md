@@ -25,10 +25,10 @@ My dissertation examines how firms recognize and respond to political risk. By s
 <div markdown="1">
 ## Education
 
-**M.A. in Political Science and International Relations, 2026**<br>
+**M.A. Politics and International Relations, 2026**<br>
 University of Southern California
 
-**B.A. in Economics and International Affairs, 2023**<br>
+**B.A. Economics and International Affairs, 2023**<br>
 Wagner College
 </div>
 </div>
@@ -47,7 +47,7 @@ With Valentina Gonzalez-Rostani.
 <div class="research-actions">
   <details class="research-abstract">
     <summary>Abstract</summary>
-    <p>Electoral campaigns are high-frequency environments in which parties receive rapid feedback and face immediate incentives to adjust both message content and presentation. Yet most research on party competition relies on low-frequency texts, such as manifestos, or on election-to-election change, obscuring strategic adaptation within campaigns. We address this gap by analyzing more than 8,000 YouTube transcripts produced by parties in Spain and the United Kingdom during the year before elections between 2015 and 2024. We develop a general framework for studying campaign communication with social media data and recent language models, combining embeddings, BERT-based measures, and large language models. Substantively, we show that parties adapt ideological stances as elections approach, shift issue emphasis, and respond selectively to rivals, especially on particular issues and within ideological families, rather than converging uniformly. Methodologically, our approach captures movement not only in topics, but also in positions, framing, and rhetorical style.</p>
+    <p>Text-as-data research increasingly incorporates word order to recover meaning within documents. We extend this insight to document order by preserving each text's authorship, timing, electoral context, and position in a communication sequence. Our pipeline combines embeddings, topic modeling, LLM-based ideology scores, and dictionaries to measure issue attention, ideological positioning, populist appeals, and rhetorical proximity. It organizes these measures into daily actor-level series that identify who moves first, who follows, and along which dimension. We apply the framework to more than 7,000 YouTube transcripts posted by official party channels in Spain and the United Kingdom between 2015 and 2024. Responsiveness intensifies as election day approaches and flows in multiple directions. Coalition incentives generate mutual adjustment within Spain's left bloc; British competition stays centered on mainstream parties as outsiders sharpen issue and ideological distinctiveness. The application shows how combining multidimensional text measures with document order reveals strategic interaction in campaigns.</p>
   </details>
   <a class="research-actions__pdf" href="https://gonzalez-rostani.com/img/Papers/YouTube.pdf">PDF</a>
 </div>
