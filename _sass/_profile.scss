@@ -163,3 +163,35 @@ html[data-theme="dark"] {
   .masthead__brand { display: none; }
   .greedy-nav a { margin-left: 0.65rem; margin-right: 0.65rem; }
 }
+
+/* Native disclosure keeps the abstract keyboard accessible without JavaScript. */
+.profile-page .research-actions {
+  position: relative;
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+.profile-page .research-actions__pdf {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.profile-page .research-abstract summary {
+  margin-left: 3rem;
+  width: fit-content;
+  cursor: pointer;
+  color: var(--global-link-color);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.profile-page .research-abstract summary:hover {
+  color: var(--global-link-color-hover);
+}
+.profile-page .research-abstract summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+.profile-page .research-abstract p {
+  margin-top: 0.75rem;
+}
