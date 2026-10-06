@@ -1,0 +1,162 @@
+/* Personal academic profile; retain the theme's light/dark color tokens. */
+html {
+  scroll-padding-top: 6rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+#main {
+  max-width: 1200px;
+}
+
+.profile-page {
+  .page__title,
+  .research-section > h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+
+  .page__title { margin-bottom: 1.5rem; }
+
+  .page__content {
+    line-height: 1.75;
+    overflow-wrap: break-word;
+  }
+
+  .page__content a {
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
+  }
+
+  .profile-details {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .profile-details > div { min-width: 0; }
+
+  .profile-details h2 {
+    margin: 0 0 1rem;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+  }
+
+  .profile-details p,
+  .profile-details li { font-size: 0.9rem; }
+  .profile-details ul { padding-left: 1.15rem; }
+  .profile-details strong { font-weight: 600; }
+
+  .research-section {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--global-border-color);
+  }
+
+  .research-section > h2 {
+    margin: 0 0 2rem;
+    padding: 0;
+    border: 0;
+  }
+
+  .research-section > h3 {
+    margin: 2rem 0 0.7rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+    text-transform: none;
+  }
+
+  .research-entry + h3 {
+    margin-top: 3rem;
+  }
+
+  .research-entry + h3 {
+    margin-top: 3rem;
+  }
+
+  .research-entry {
+    padding: 0;
+    margin: 0 0 1.25rem;
+  }
+
+  .research-entry h4 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .research-entry p {
+    margin: 0.2rem 0 0;
+    font-size: 0.9rem;
+  }
+
+  .research-entry__links { font-weight: 600; }
+}
+
+@include breakpoint($large) {
+  #main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .sidebar { width: 23%; }
+
+  .page.profile-page {
+    width: 71%;
+    padding: 0;
+    margin: 0;
+    float: right;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-page {
+    .page__title,
+    .research-section > h2 { font-size: 1.9rem; }
+    .profile-details { grid-template-columns: 1fr; gap: 1.5rem; }
+    .research-section { margin-top: 3rem; padding-top: 2rem; }
+  }
+}
+
+/* Keep the footer below the content instead of covering it while scrolling. */
+.page__footer { position: static; }
+body { padding-bottom: 0; }
+
+/* Readable links in both supported themes. */
+:root {
+  --global-link-color: #246579;
+  --global-link-color-hover: #174657;
+  --global-link-color-visited: #246579;
+}
+html[data-theme="dark"] {
+  --global-link-color: #8dccdf;
+  --global-link-color-hover: #b8e3ef;
+  --global-link-color-visited: #8dccdf;
+}
+
+/* Keep the name on the left and section links against the right edge. */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.masthead__menu .greedy-nav { flex: 1; min-width: 0; }
+.greedy-nav .visible-links { margin-left: auto; }
+.greedy-nav:has(button:not(.hidden)) .visible-links { margin-right: 3rem; }
+.masthead__brand { font-weight: 700; white-space: nowrap; }
+.greedy-nav .visible-links li:first-child { font-weight: normal; }
+@media (max-width: 767px) {
+  .masthead__brand { display: none; }
+  .greedy-nav a { margin-left: 0.65rem; margin-right: 0.65rem; }
+}

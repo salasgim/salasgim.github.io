@@ -28,33 +28,4 @@
     "vendor/font-awesome/brands"
 ;
 
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
-
-// Wider content + wider sidebar
-@include breakpoint($large) {
-  #main {
-    max-width: 100%;
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-
-  .page {
-    width: 75% !important;
-    padding-right: 0 !important;
-    margin-right: 0 !important;
-    margin-left: 2% !important;
-    float: right !important;
-  }
-
-  .sidebar {
-    width: 22% !important;
-    float: left !important;
-  }
-}
-
-@include breakpoint($x-large) {
-  #main {
-    max-width: 1400px;
-  }
-}
-
+@import "profile";
