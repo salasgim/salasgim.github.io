@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a Ph.D. Candidate in Political Science and International Relations at the [University of Southern California](https://dornsife.usc.edu/poir/profile/claudia-salas-gimenez/), with an emphasis on International Political Economy and Political Methodology. I am also a Graduate Research Assistant at [The Security and Political Economy Lab](https://www.uscspec.org/). My research focuses on state–business relations, and in particular on how political uncertainty shapes firm behavior.
+Welcome! I am a Ph.D. Candidate in Political Science and International Relations at the [University of Southern California](https://dornsife.usc.edu/poir/profile/claudia-salas-gimenez/), with an emphasis on International Political Economy and Political Methodology. I am part of OpenAI's inaugural Economic Research Exchange program and a Graduate Research Assistant at [The Security and Political Economy Lab](https://www.uscspec.org/). My research focuses on state–business relations, and in particular on how political uncertainty shapes firm behavior.
 
 My dissertation examines how firms recognize and respond to political risk. By studying different sources of political uncertainty, I aim to understand how such risk affects firm behavior, through which channels it reaches them, and how firms adapt their strategies when the political environment shifts around them. Empirically, I combine establishment-level data on subsidiary placements, a large language model pipeline to analyze corporate textual data, and survey experiments.
 
